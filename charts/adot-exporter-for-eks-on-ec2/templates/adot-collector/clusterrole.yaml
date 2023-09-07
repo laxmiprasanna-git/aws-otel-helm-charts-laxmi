@@ -15,7 +15,7 @@ rules:
     verbs: ["list", "watch"]
   - apiGroups: ["batch"]
     resources: ["jobs"]
-    verbs: ["list", "watch"]
+    verbs: ["list", "watch", "get"]
   - apiGroups: [""]
     resources: ["nodes/proxy"]
     verbs: ["get"]
